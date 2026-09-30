@@ -48,3 +48,232 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+```
+MyFirstApp
+├─ app
+│  ├─ (tabs)
+│  │  ├─ credits.tsx
+│  │  ├─ help.tsx
+│  │  ├─ index.tsx
+│  │  ├─ profile.tsx
+│  │  └─ _layout.tsx
+│  ├─ available-plans.tsx
+│  ├─ checkout.tsx
+│  ├─ EditProfileScreen.tsx
+│  ├─ esim-details
+│  │  └─ [id].tsx
+│  ├─ esim-qr.tsx
+│  ├─ explore-plans.tsx
+│  ├─ modal.tsx
+│  ├─ my-esims.tsx
+│  ├─ onboarding.tsx
+│  ├─ PaymentHistoryScreen.tsx
+│  ├─ purchase-success.tsx
+│  ├─ screens
+│  │  ├─ esims
+│  │  │  └─ InstallationGuideScreen.tsx
+│  │  └─ profile
+│  │     ├─ DataCalculatorScreen.tsx
+│  │     ├─ LiveChatSupportScreen.tsx
+│  │     ├─ ProfileScreen.tsx
+│  │     ├─ PushNotificationsScreen.tsx
+│  │     └─ WhatsNewScreen.tsx
+│  └─ _layout.tsx
+├─ app.json
+├─ assets
+│  └─ images
+│     ├─ favicon.png
+│     ├─ fonts
+│     │  ├─ Sunsive-Black.css
+│     │  ├─ Sunsive-Black.eot
+│     │  ├─ Sunsive-Black.html
+│     │  ├─ Sunsive-Black.ttf
+│     │  ├─ Sunsive-Black.woff
+│     │  ├─ Sunsive-Black.woff2
+│     │  ├─ Sunsive-Bold.css
+│     │  ├─ Sunsive-Bold.eot
+│     │  ├─ Sunsive-Bold.html
+│     │  ├─ Sunsive-Bold.ttf
+│     │  ├─ Sunsive-Bold.woff
+│     │  ├─ Sunsive-Bold.woff2
+│     │  ├─ Sunsive-ExtraBold.css
+│     │  ├─ Sunsive-ExtraBold.eot
+│     │  ├─ Sunsive-ExtraBold.html
+│     │  ├─ Sunsive-ExtraBold.ttf
+│     │  ├─ Sunsive-ExtraBold.woff
+│     │  ├─ Sunsive-ExtraBold.woff2
+│     │  ├─ Sunsive-Medium.css
+│     │  ├─ Sunsive-Medium.eot
+│     │  ├─ Sunsive-Medium.html
+│     │  ├─ Sunsive-Medium.ttf
+│     │  ├─ Sunsive-Medium.woff
+│     │  ├─ Sunsive-Medium.woff2
+│     │  ├─ Sunsive-Regular.css
+│     │  ├─ Sunsive-Regular.eot
+│     │  ├─ Sunsive-Regular.html
+│     │  ├─ Sunsive-Regular.ttf
+│     │  ├─ Sunsive-Regular.woff
+│     │  ├─ Sunsive-Regular.woff2
+│     │  ├─ Sunsive-SemiBold.css
+│     │  ├─ Sunsive-SemiBold.eot
+│     │  ├─ Sunsive-SemiBold.html
+│     │  ├─ Sunsive-SemiBold.ttf
+│     │  ├─ Sunsive-SemiBold.woff
+│     │  └─ Sunsive-SemiBold.woff2
+│     ├─ icon.png
+│     ├─ logo.png
+│     ├─ partial-react-logo.png
+│     ├─ react-logo.png
+│     ├─ react-logo@2x.png
+│     ├─ react-logo@3x.png
+│     └─ splash-icon.png
+├─ components
+│  ├─ external-link.tsx
+│  ├─ haptic-tab.tsx
+│  ├─ hello-wave.tsx
+│  ├─ parallax-scroll-view.tsx
+│  ├─ themed-text.tsx
+│  ├─ themed-view.tsx
+│  ├─ types
+│  │  └─ api.types.ts
+│  └─ ui
+│     ├─ collapsible.tsx
+│     ├─ icon-symbol.ios.tsx
+│     └─ icon-symbol.tsx
+├─ constants
+│  ├─ api.ts
+│  └─ theme.ts
+├─ context
+│  └─ AuthContext.tsx
+├─ eas.json
+├─ eslint.config.js
+├─ hooks
+│  ├─ use-color-scheme.ts
+│  ├─ use-color-scheme.web.ts
+│  ├─ use-theme-color.ts
+│  └─ useApi.ts
+├─ package-lock.json
+├─ package.json
+├─ README.md
+├─ scripts
+│  ├─ api.ts
+│  ├─ apiClient.ts
+│  └─ reset-project.js
+└─ tsconfig.json
+
+```
+```
+MyFirstApp
+├─ app
+│  ├─ (tabs)
+│  │  ├─ credits.tsx
+│  │  ├─ help.tsx
+│  │  ├─ index.tsx
+│  │  ├─ profile.tsx
+│  │  └─ _layout.tsx
+│  ├─ available-plans.tsx
+│  ├─ checkout.tsx
+│  ├─ EditProfileScreen.tsx
+│  ├─ esim-details
+│  │  └─ [id].tsx
+│  ├─ esim-qr.tsx
+│  ├─ explore-plans.tsx
+│  ├─ modal.tsx
+│  ├─ my-esims.tsx
+│  ├─ onboarding.tsx
+│  ├─ PaymentHistoryScreen.tsx
+│  ├─ purchase-success.tsx
+│  ├─ screens
+│  │  ├─ esims
+│  │  │  └─ InstallationGuideScreen.tsx
+│  │  └─ profile
+│  │     ├─ DataCalculatorScreen.tsx
+│  │     ├─ LiveChatSupportScreen.tsx
+│  │     ├─ ProfileScreen.tsx
+│  │     ├─ PushNotificationsScreen.tsx
+│  │     └─ WhatsNewScreen.tsx
+│  └─ _layout.tsx
+├─ app.json
+├─ assets
+│  └─ images
+│     ├─ favicon.png
+│     ├─ fonts
+│     │  ├─ Sunsive-Black.css
+│     │  ├─ Sunsive-Black.eot
+│     │  ├─ Sunsive-Black.html
+│     │  ├─ Sunsive-Black.ttf
+│     │  ├─ Sunsive-Black.woff
+│     │  ├─ Sunsive-Black.woff2
+│     │  ├─ Sunsive-Bold.css
+│     │  ├─ Sunsive-Bold.eot
+│     │  ├─ Sunsive-Bold.html
+│     │  ├─ Sunsive-Bold.ttf
+│     │  ├─ Sunsive-Bold.woff
+│     │  ├─ Sunsive-Bold.woff2
+│     │  ├─ Sunsive-ExtraBold.css
+│     │  ├─ Sunsive-ExtraBold.eot
+│     │  ├─ Sunsive-ExtraBold.html
+│     │  ├─ Sunsive-ExtraBold.ttf
+│     │  ├─ Sunsive-ExtraBold.woff
+│     │  ├─ Sunsive-ExtraBold.woff2
+│     │  ├─ Sunsive-Medium.css
+│     │  ├─ Sunsive-Medium.eot
+│     │  ├─ Sunsive-Medium.html
+│     │  ├─ Sunsive-Medium.ttf
+│     │  ├─ Sunsive-Medium.woff
+│     │  ├─ Sunsive-Medium.woff2
+│     │  ├─ Sunsive-Regular.css
+│     │  ├─ Sunsive-Regular.eot
+│     │  ├─ Sunsive-Regular.html
+│     │  ├─ Sunsive-Regular.ttf
+│     │  ├─ Sunsive-Regular.woff
+│     │  ├─ Sunsive-Regular.woff2
+│     │  ├─ Sunsive-SemiBold.css
+│     │  ├─ Sunsive-SemiBold.eot
+│     │  ├─ Sunsive-SemiBold.html
+│     │  ├─ Sunsive-SemiBold.ttf
+│     │  ├─ Sunsive-SemiBold.woff
+│     │  └─ Sunsive-SemiBold.woff2
+│     ├─ icon.png
+│     ├─ logo.png
+│     ├─ partial-react-logo.png
+│     ├─ react-logo.png
+│     ├─ react-logo@2x.png
+│     ├─ react-logo@3x.png
+│     └─ splash-icon.png
+├─ components
+│  ├─ external-link.tsx
+│  ├─ haptic-tab.tsx
+│  ├─ hello-wave.tsx
+│  ├─ parallax-scroll-view.tsx
+│  ├─ themed-text.tsx
+│  ├─ themed-view.tsx
+│  ├─ types
+│  │  └─ api.types.ts
+│  └─ ui
+│     ├─ collapsible.tsx
+│     ├─ icon-symbol.ios.tsx
+│     └─ icon-symbol.tsx
+├─ constants
+│  ├─ api.ts
+│  └─ theme.ts
+├─ context
+│  └─ AuthContext.tsx
+├─ eas.json
+├─ eslint.config.js
+├─ hooks
+│  ├─ use-color-scheme.ts
+│  ├─ use-color-scheme.web.ts
+│  ├─ use-theme-color.ts
+│  └─ useApi.ts
+├─ package-lock.json
+├─ package.json
+├─ README.md
+├─ scripts
+│  ├─ api.ts
+│  ├─ apiClient.ts
+│  └─ reset-project.js
+└─ tsconfig.json
+
+```
